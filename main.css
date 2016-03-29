@@ -1,0 +1,62 @@
+
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+  background-image: url('http://www.calisthenicsmag.com/wp-content/uploads/2014/05/build_muscle_mass.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+}
+
+	.content, .header{
+		display: inline-block;
+	}
+
+	.content{
+	  max-width: 75%;
+	  background-color: #22EECC;
+	  padding: 30px;
+	  margin-top: 0;
+	  max-height: 600px
+	}
+	.header{
+	  color:blue;
+	  font-size: 30px;
+	  font-family: 'Trebuchet MS', 'Helvetica';
+	  background-color: #FAEEEE;
+	  margin: 0;
+	}
+	.menu{
+	  color:red;
+	  font-size: 20px;
+	  background-color: #FFEE00;
+	  max-width: 20%;
+	  min-width: 140px;
+	  flex: 1;
+	  margin-top: 0;
+	}
+.footer{
+  color: green;
+  font-size: 20px;
+  background-color: #FFFFF;
+}
+ul{
+  background-color: #f1f1f1;
+}
+li a {
+  color: #004;
+  text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
